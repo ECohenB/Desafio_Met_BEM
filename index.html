@@ -18,9 +18,16 @@
     <body>
         <div class="container">
             <header class="header">
-                <img class="header__logo" src="./assets/image/logos/adl.png" alt="Logo">
-                <h2 class="header__title">Blog FrontEnd</h2>
+                <div class="header__left">
+                    <img class="header__logo" src="./assets/image/logos/adl.png" alt="Logo">
+                    <h2 class="header__title">Blog FrontEnd</h2>
+                </div>
+                <div class="header__right">
+                    <button class="header__login-button"> <a href="./login.html" class="link">Iniciar sesión</a></button>
+                    <button class="header__signup-button"><a href="./form.html" class="link">Regístrate</a></button>
+                </div>
             </header>
+            <br>
             <h1 class="subtitle">Novedades</h1>
             <div class="layout">
                 <div class="layout__column layout__column--50">
@@ -30,8 +37,8 @@
                             src="./assets/image/posts/bootstrap.png"
                             alt="Bootstrap Image">
                         <p class="figure__description">24 Noviembre, 2022</p>
-                        <h4 class="figure__title">Modifica el tema de Bootstrap con variables CSS</h4>
-                        <br>
+                        <h4 class="figure__title"><a href="./blog.html" class="link">Modifica el tema de Bootstrap con variables CSS</a></h4>
+                     
                         <div class="figure__tags">
                             <img class="figure__tags-logo" src="./assets/image/logos/adl.png" alt="Logo">
                             <p class="figure__tag">Desafío Latam</p>
@@ -56,7 +63,7 @@
                     <div class="card">
                         <p class="card__description">24 Noviembre, 2022</p>
                         <h4 class="card__title">Herencia en JavaScript</h4>
-                        <br>
+                        
                         <div class="card__tags">
                             <img class="card__tags-logo" src="./assets/image/logos/adl.png" alt="Logo">
                             <p class="card__tag">Desafío Latam</p>
@@ -66,7 +73,7 @@
                     <div class="card">
                         <p class="card__description">24 Noviembre, 2022</p>
                         <h4 class="card__title">Etiquetas semánticas</h4>
-                        <br>
+                        
                         <div class="card__tags">
                             <img class="card__tags-logo" src="./assets/image/logos/adl.png" alt="Logo">
                             <p class="card__tag">Desafío Latam</p>
@@ -76,7 +83,7 @@
                     <div class="card">
                         <p class="card__description">24 Noviembre, 2022</p>
                         <h4 class="card__title">Componentes React</h4>
-                        <br>
+                      
                         <div class="card__tags">
                             <img class="card__tags-logo" src="./assets/image/logos/adl.png" alt="Logo">
                             <p class="card__tag">Desafío Latam</p>
@@ -153,7 +160,7 @@
                     <h3 class="widget__box-title">CSS</h3>
                 </div>
                 <div class="widget__box widget__box--react">
-                    <img class="widget__box-img" src=".//assets/image/logos/react.png" alt="React">
+                    <img class="widget__box-img" src="./assets/image/logos/react.png" alt="React">
                     <h3 class="widget__box-title">React</h3>
                 </div>
                 <div class="widget__box widget__box--vue">
@@ -161,19 +168,26 @@
                     <h3 class="widget__box-title">Vue</h3>
                 </div>
                 <div class="widget__box widget__box--bootstrap">
-                    <img
-                        class="widget__box-img"
-                        src="./assets/image/logos/bootstrap-logo.png"
-                        alt="Bootstrap">
+                    <img class="widget__box-img"src="./assets/image/logos/bootstrap-logo.png" alt="Bootstrap">
                     <h3 class="widget__box-title">Bootstrap</h3>
                 </div>
                 <p class="widget__paragraphe">Ver todas las categorías ></p>
             </aside>
 
+            <section class="subscription">
+                <div class="subscription__content">
+                    <h2 class="subscription__title">Mantente actualizado sobre el Desarrollo Front End</h2>
+                    <div class="subscription__form-group">
+                        <input type="email" id="email" class="subscription__input" placeholder="">
+                    </div>
+                </div>
+                <button class="subscription__button"><b>Suscríbete </b></button>
+            </section>
+
             <footer class="footer">
                 <img class="footer__logo" src="./assets/image/logos/adl.png" alt="Logo">
                 <h4 class="footer__title">Blog FrontEnd</h4>
-                <p class="footer__rights">Desafío Latam - 2022</p>
+                <p class="footer__rights">Desafío Latam - 2023</p>
             </footer>
         </div>
     </body>

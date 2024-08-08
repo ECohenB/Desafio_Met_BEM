@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__left">
+                <img class="header__logo" src="./assets/image/logos/adl.png" alt="Logo">
+                <h2 class="header__title"><a href="./index.html" class="link">Blog FrontEnd</h2></a>
+            </div>
+        </header>
+        
+
+
+          <form action="index.html"  class="form">
+            <div class="form__container">
+                <h3 class="form__title">Bienvenido</h3>
+                <div class="form__group">
+                    <input type="email" id="email" class="form__input" placeholder="Email" required>
+                </div>
+                <div class="form__group">
+                    <input type="password" id="password" class="form__input" placeholder="Contraseña" required>
+                </div>
+                <div class="form__group">
+                    <input type="checkbox" id="cbox1" class="form__checkbox" value="checkbox" /> Recordarme
+                    <p class="form__forgot-password">¿Olvidaste tu contraseña?</p>
+                </div>
+                <br>
+                <div class="form__actions">
+                    <button type="submit" class="form__button">
+                        Iniciar sesión
+                    </button>
+                    <button type="button" class="form__button form__button--google">
+                        <img src="./assets/image/logos/Google400x400.jpg" alt="Google Icon" class="form__button-icon">
+                        <h3 class="form__button-text">Iniciar sesión con Google</h3>
+                    </button>
+                </div>
+                <p class="form__link">
+                    ¿No tienes una cuenta? <a href="./form.html" class="link"><b>Regístrate</b></a>
+                </p>
+            </div>
+        </form>
+        
+
+        <footer class="footer">
+            <div class="footer__brand"> 
+            <img class="footer__logo" src="./assets/image/logos/adl.png" alt="Logo">
+            <h4 class="footer__title">Blog FrontEnd</h4>
+            <p class="footer__rights">Desafío Latam - 2023</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

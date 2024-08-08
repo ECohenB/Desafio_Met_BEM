@@ -1,0 +1,50 @@
+.subscription {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $button-color;
+  
+    &__content {
+      margin-bottom: 10px;
+    }
+  
+    &__title {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color:$secondary-color;
+    }
+  
+    &__form-group {
+      margin-bottom: 10px;
+      padding: 10px 10px;
+    }
+  
+    &__input{
+      width: 100%;
+      padding: 10px;
+      font-size: 20px;
+      border: 1px solid $color-border;
+      border-radius: 8px;
+    }
+  
+    &__button {
+      display: inline-block;
+      width: 150px;
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color:$button-second-color;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+  
+    }
+  }
+  

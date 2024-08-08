@@ -1,0 +1,100 @@
+/* Main */
+.main {
+    position: relative;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.main__subtitle {
+    margin-left: 20px;
+    color: #313335;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-content__subtitle,
+.subtitle {
+    margin-left: 50px;  
+}
+
+.main-content__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: $secondary-color;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.main-content__figure-img {
+    border-radius: 20px;
+    margin: 30px;
+    width: 550px;
+    height: 250px;
+}
+.main-content__brand {
+    display: flex; 
+    align-items: center; 
+    justify-content:left; 
+    margin: 50px;
+    gap: 10px;
+}
+.main-content__brand-logo {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 50%;
+}
+.cars{
+    align-items: center;
+}
+.card {
+
+    float: left;
+    width: 300px;
+    text-align: left;
+    margin: 10px;
+    color: #313335;
+}
+
+
+
+.card__image {
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card__title {
+    font-weight: bold;
+}
+
+.card__description {
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.card__tags {
+    width: 298px;
+    height: 89px;
+    color: #000000;
+    border-radius: 10px;
+}
+.card__tags-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
